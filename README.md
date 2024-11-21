@@ -50,6 +50,11 @@ The project follows a clean architecture with a separation of concerns:
    - `Reviews`: Shows movie reviews and allows adding new ones.
    - `Trailer`: Plays YouTube trailers.
 
+## API Endpoints
+- **GET /api/v1/movies**: Fetch all movies.
+- **GET /api/v1/movies/{imdbId}**: Fetch a single movie by its IMDB ID.
+- **POST /api/v1/reviews**: Add a review for a movie.
+  
 ## Setup Instructions
 ### Prerequisites
 - Java 17+
@@ -101,8 +106,3 @@ The project follows a clean architecture with a separation of concerns:
    npm start
    ```
    The frontend will be available at `http://localhost:3000`.
-
-## API Endpoints
-- **GET /api/v1/movies**: Fetch all movies.
-- **GET /api/v1/movies/{imdbId}**: Fetch a single movie by its IMDB ID.
-- **POST /api/v1/reviews**: Add a review for a movie.
