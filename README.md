@@ -102,5 +102,5 @@ The project follows a clean architecture with a separation of concerns:
 
 ## API Endpoints
 - **GET /api/v1/movies**: Fetch all movies.
-- **GET /api/v1/movies/{imdbId}**: Fetch a single movie by its IMDb ID.
+- **GET /api/v1/movies/{imdbId}**: Fetch a single movie by its IMDB ID.
 - **POST /api/v1/reviews**: Add a review for a movie.
