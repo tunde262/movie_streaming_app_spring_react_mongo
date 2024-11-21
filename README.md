@@ -2,6 +2,8 @@
 
 A full-stack web application designed to allow users to explore movies, watch trailers, and interact by adding reviews. It uses React on the frontend and Spring Boot on the backend with MongoDB for data persistence.
 
+![thumbnail](https://github.com/tunde262/movie_streaming_app_spring_react_mongo/blob/main/assets/thumbnail.gif?raw=true)
+
 ## Project Goal
 The goal of this project is to demonstrate proficiency in building RESTful APIs with Spring Boot, integrating a MongoDB NoSQL database for data storage, and using React to create a dynamic and interactive user interface.
 
